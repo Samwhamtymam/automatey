@@ -69,7 +69,7 @@ end
 -- Update this script
 local fPath = "git.lua"
 print("Updating this git.lua script:")
-local consoleOutput = " - Pulling /" .. fs.combine(repoName, fPath) .. " remote into " .. fPath .. ": "
+local consoleOutput = " - Pulling /" .. fs.combine(repoName, fPath) .. " into " .. fPath .. ": "
 -- Check url
 local goAhead = true
 local url = repoURL .. fPath
